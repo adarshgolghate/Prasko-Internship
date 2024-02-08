@@ -181,6 +181,7 @@ class BasicProgram{
             case 7: ap.formula7(); break;
             case 8: ap.formula8(); break;
             case 9: ap.formula9(); break;
+            case 10: ap.formula10(); break;
             default: System.out.println("Invalid Input"); break;
         }
     }  
