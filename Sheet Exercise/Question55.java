@@ -11,13 +11,13 @@ class Question55 {
         Scanner scan = new Scanner(System.in);
         c = scan.next().charAt(0);
         //running if else if condition 
-        if(c == 'a' || c=='e' || c=='i' || c=='o' || c=='u'){
+        if(c == 'a' || c=='e' || c=='i' || c=='o' || c=='u'){  //this condition checks for the vowel of lower case
             System.out.println("The entered value is a Vowel");
         }
-        else if(c == 'A' || c=='E' || c=='I' || c=='O' || c=='U'){
+        else if(c == 'A' || c=='E' || c=='I' || c=='O' || c=='U'){  // this condition checks for the vowel fo upper case
             System.out.println("The entered value is a Vowel.");
         }
-        else{
+        else{                                                       // this condition will run if the both the if, else if condition fails
             System.out.println("The entered value is a Consonent."); 
         }
     }    
