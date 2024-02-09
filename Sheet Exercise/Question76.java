@@ -9,6 +9,7 @@ public class Question76 {
     public static void main(String args[]){
         //making object of scanner class
         Scanner scan = new Scanner(System.in);
+        System.out.println("Know Your Shape...");
         System.out.println("How many sides does your shape has?");
         int a = scan.nextInt();
         //switching in between conditions
