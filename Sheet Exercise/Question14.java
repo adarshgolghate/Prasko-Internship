@@ -10,19 +10,18 @@ class Question14 {
         int size = scan.nextInt(),result=0;
         //making an object of array
         int a[] = new int[size];
-        for(int i=1; i<=a.length; i++)
+        for(int i=0; i<a.length; i++)
         {
-            System.out.println("Enter value at "+i+"th Position");
+            System.out.println("Enter value at "+(i+1)+"th Position");
             a[i] = scan.nextInt();
         }
-        for(int i=1; i<=a.length;i++){
-            result = result+a[1];
+        for(int i=0; i<a.length;i++){
+            result = result+a[i];
         }
         int average = result/size;
+        System.out.println("The avg of the given values will be: "+ average);
 
     }
     
 }
-//keetne ka avg nikalna hai?
-//10 i.e. size of the arrya will be 10
-//
+
