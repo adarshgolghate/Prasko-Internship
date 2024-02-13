@@ -16,31 +16,30 @@ public class Extra1 {
         }
         //this statement will change the line
         System.out.println(" ");
-        //this for loop will execute 5 times
-        for(byte i=0; i<=4;i++){
-             //checking the condition if the value is greater than 1 then
-             if(date>1){
-                 for(byte k=1; k<date; k++){
-                    System.out.print("  \t"); 
-            }
-             date=0;
-            }
-            else{
-                //this loop will print the dates till 30
-                for(byte j=date; j<=day.length;j++ ){
-                   
-                    System.out.print(x +"\t");
-                    x++;
-                    if(x==31){
-                        break;
-                    }
-                    else{                
-                        continue;                
-                    }
-                } 
-                System.out.println(" ");                      
-            }         
+        if(date>7){
+            System.out.print("Invalid Entery");
         }
+        else{
+            
+                if(date>1){
+                    for(int z=1;z<date;z++){
+                        System.out.print(" \t");
+                    } 
+                                       
+                }
+                for(int k=1;k<31;k++){
+                    System.out.print(x+"\t");
+                    x++;
+                    if(((k+date)-1)%7==0){
+                        System.out.println(" ");  
+                    }
+                }                    
+                
+                              
+                
+            
+        }
+        
         
     }
 }
