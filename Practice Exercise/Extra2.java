@@ -86,9 +86,7 @@ public class Extra2 {
                 test++;
                 System.out.println(" ");
                 System.out.println("Number of attempts left "+(test-1));
-            }
-            
+            }            
         } 
-
     }
 }
