@@ -14,11 +14,11 @@ public class Extra1 {
         for(byte i=0;i<day.length;i++){
             System.out.print(day[i]+"\t");
         }
-        
+        //this statement will change the line
         System.out.println(" ");
-        
+        //this for loop will execute 5 times
         for(byte i=0; i<=4;i++){
-           
+                //checking the condition if the value is greater than 1 then
                 if(date>1){
                     for(byte k=1; k<date; k++){
                         System.out.print("  \t"); 
@@ -26,7 +26,9 @@ public class Extra1 {
                     date=0;
                 }
                 else{
-                    for(byte j=date; j<day.length;j++ ){
+                    //this loop will print the dates till 30
+                    for(byte j=date; j<=day.length;j++ ){
+                       
                         System.out.print(x +"\t");
                         x++;
                         if(x==31){
