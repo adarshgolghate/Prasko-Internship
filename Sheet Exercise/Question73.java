@@ -1,6 +1,4 @@
 import java.util.*;
-
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 public class Question73 {
     //A prograom to conver a indian rupees into a given currency amount(USD,EUR,GBP,JPY).
     public static void main(String args[]){
