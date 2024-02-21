@@ -1,7 +1,7 @@
 //importing all packages from utility package
 import java.util.*;
 //this class contains the 
-class AllProgram{
+class AllProgramExtra2{
     
     void checkBalance(double a){
         System.out.println("Wel-Come User");
@@ -72,7 +72,7 @@ public class Extra2 {
                 System.out.println("Press\t3 for Deposit Money");
                 byte choice = scan.nextByte();
                 //onject of AllProgram class
-                AllProgram ap = new AllProgram();
+                AllProgramExtra2 ap = new AllProgramExtra2();
                 switch (choice) {
                     case 1: ap.checkBalance(balance);break;
                     case 2: ap.withdrawMoney(balance);break;
