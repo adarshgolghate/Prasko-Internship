@@ -3,7 +3,12 @@ public class BubbleSort {
     //sort an array using bubble sort
     public static void main(String args[]){
           //initializing of array...
-        int a[]={50,40,30,20,10};
+        int a[]= new int[10];
+        for(int i=0; i<a.length;i++){
+            Scanner scan = new Scanner(System.in);
+            System.out.print("ENTER A VALUES:");
+            a[i]=scan.nextInt();
+        }
         for(int i=0; i<a.length;i++){
             for(int j=0;j<a.length-1;j++){
                 if(a[j]>a[j+1]){
