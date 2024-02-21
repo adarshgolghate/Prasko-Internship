@@ -18,9 +18,12 @@ public class BinarySearch {
                 high=mid;
                 mid=low+high/2;
             }
-            else{
+            else if(a[mid]<key){
                 low =mid;
                 mid=low+high/2;
+            }
+            else{
+                System.out.print("Element not found...");
             }
 
         }
