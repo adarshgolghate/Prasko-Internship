@@ -6,11 +6,11 @@ public class Question91 {
         System.out.println("Enter the Nth number");
         int n = scan.nextInt();
         int sum = 0;
-        int avg =0;
-        for(int i=0; i<n; i++){
+        double avg =0;
+        for(int i=1; i<=n; i++){
             sum =sum+i;
         }
-        avg = sum/2;
+        avg = sum/n;
         System.out.println(avg);
 
     }   
