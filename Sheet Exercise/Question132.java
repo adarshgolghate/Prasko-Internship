@@ -15,18 +15,18 @@ public class Question132 {
         int key = scan.nextInt();
         for(int i=0; i<a.length; i++){
             if(a[i]==key){
-                x=true;
+               x=true; break;
             }
             else{
                 x=false;
             }
         }
-        if(x==true)
-        {
-            System.out.print("Element found");
+        if(x==true){
+            System.out.println("Element Found");
         }
         else{
-            System.out.print("Element not found");
+            System.out.println("Element Not Founds");
         }
+        
     }
 }
